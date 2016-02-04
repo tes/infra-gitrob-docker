@@ -8,6 +8,7 @@ echo "sql_connection_uri: postgres://$GITROB_PG_USERNAME:$GITROB_PG_PASSWORD@$GI
 echo -e "
 WARNING
 =======
+
 Gitrob is designed to help you stop doing stupid things. If you use any information
 found through this tool for malicious purposes that are not authorized by
 the organization, you are violating the terms of use and license of this
