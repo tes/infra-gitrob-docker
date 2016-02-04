@@ -10,13 +10,13 @@
 
 ## Building
 
-* Clone the [repo] () and move into the directory.
+* Clone the [repo](https://github.com/tes/infra-gitrob-docker) and move into the directory.
 * Build the docker image:
   `docker build -t "tesglobal/gorob" .`
 
 ## Pull from DockerHub
 
-* TODO
+`docker pull tesglobal/gorob`
 
 ## Engage!
 
@@ -30,3 +30,6 @@ If you simply want to run the webserver included:
 
 Ideally you would start and leave the 'server' running while you cron the 'scan' to the fequency you care about
 
+## Licence
+
+MIT
