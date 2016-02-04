@@ -22,11 +22,11 @@
 
 If this is your first run, you should definately do a scan:
 
-`docker run -P -e "GITHUB_ACCESS_TOKEN=<your-github-tocken-here>" -e "GITROB_PG_USERNAME=<postgresql-username-for-database>" -e "GITROB_PG_PASSWORD=<postgresql-password-for username>" -e "GITROB_PG_SERVER=<postgresql-server-address>" -e "GITROB_PG_PORT=<postgresql-server-port>" -e "GITROB_SERVER_ADDRESS=<address-gitrob-should-bind-to>" -e "GITROB_SERVER_PORT=<port-gitrob-should-bind-to>" -e "GITHUB_ORG=<your-github-organization-name>" -e "GITROB_MODE=<scan>" tesglboal/gorob`
+`docker run -P -e "GITHUB_ACCESS_TOKEN=<your-github-tocken-here>" -e "GITROB_PG_USERNAME=<postgresql-username-for-database>" -e "GITROB_PG_PASSWORD=<postgresql-password-for username>" -e "GITROB_PG_SERVER=<postgresql-server-address>" -e "GITROB_PG_PORT=<postgresql-server-port>" -e "GITROB_SERVER_ADDRESS=<address-gitrob-should-bind-to>" -e "GITROB_SERVER_PORT=<port-gitrob-should-bind-to>" -e "GITHUB_ORG=<your-github-organization-name>" -e "GITROB_MODE=scan" tesglboal/gorob`
 
 If you simply want to run the webserver included:
 
-`docker run -P -e "GITHUB_ACCESS_TOKEN=<your-github-tocken-here>" -e "GITROB_PG_USERNAME=<postgresql-username-for-database>" -e "GITROB_PG_PASSWORD=<postgresql-password-for username>" -e "GITROB_PG_SERVER=<postgresql-server-address>" -e "GITROB_PG_PORT=<postgresql-server-port>" -e "GITROB_SERVER_ADDRESS=<address-gitrob-should-bind-to>" -e "GITROB_SERVER_PORT=<port-gitrob-should-bind-to>" -e "GITHUB_ORG=<your-github-organization-name>" -e "GITROB_MODE=<server>" tesglboal/gorob`
+`docker run -P -e "GITHUB_ACCESS_TOKEN=<your-github-tocken-here>" -e "GITROB_PG_USERNAME=<postgresql-username-for-database>" -e "GITROB_PG_PASSWORD=<postgresql-password-for username>" -e "GITROB_PG_SERVER=<postgresql-server-address>" -e "GITROB_PG_PORT=<postgresql-server-port>" -e "GITROB_SERVER_ADDRESS=<address-gitrob-should-bind-to>" -e "GITROB_SERVER_PORT=<port-gitrob-should-bind-to>" -e "GITHUB_ORG=<your-github-organization-name>" -e "GITROB_MODE=server" tesglboal/gorob`
 
 Ideally you would start and leave the 'server' running while you cron the 'scan' to the fequency you care about
 
