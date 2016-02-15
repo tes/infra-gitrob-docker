@@ -30,6 +30,11 @@ If you simply want to run the webserver included:
 
 Ideally you would start and leave the 'server' running (note the -d) while you cron the 'scan' to the fequency you care about
 
+## TODO
+
+- [ ] Stop running things as root
+- [ ] Allow the option of linking a persitence container running postgresql
+
 ## Licence
 
 The MIT License (MIT)
